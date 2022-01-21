@@ -36,8 +36,8 @@ while True:
                     else:
                         mat[i][j] = 0
     cv2.imshow("mat",mat)
-    cv2.imwrite(f"game/{count}.jpg",255*mat)
-    count += 1
+    # cv2.imwrite(f"images/{count}.jpg",255*mat)
+    # count += 1
     key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         break

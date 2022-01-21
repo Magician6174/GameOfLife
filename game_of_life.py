@@ -1,8 +1,6 @@
 import numpy as np
 import cv2
 from skimage.util.shape import view_as_windows
-import imageio
-import os
 
 mat = np.zeros((255,255),dtype='float32')
 mat[128:148,128:158] = 1
